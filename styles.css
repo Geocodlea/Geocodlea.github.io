@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(#efefef, #ada9a9);
+  text-align: center
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: serif;
+}
+
+section {
+  padding: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+}
+
+.inputs {
+  margin: 0.5rem;
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+select {
+  width: 50%;
+}
+
+.big {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.button {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#memeImg {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    width: 75%;
+  }
+  #memeImg {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  section {
+    width: 50%;
+  }
+  #memeImg {
+    width: 70%;
+  }
+}
